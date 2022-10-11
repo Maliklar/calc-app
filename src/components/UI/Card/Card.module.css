@@ -1,0 +1,29 @@
+.card{
+    border-radius: 18px;
+}
+.theme1.card.screen{
+    background-color: var(--Theme1Screenbackground);
+    color: var(--White);
+}
+.theme1.card.keypad{
+    background-color: var(--Theme1TogglebackgroundKeypadBackground);
+}
+
+.theme2.card.screen {
+    background-color: var(--Theme2Screenbackground);
+    color: var(--Theme2Text);
+}
+
+.theme2.card.keypad {
+    background-color: var(--Theme2TogglebackgroundKeypadBackground);
+}
+
+.theme3.card.screen {
+    background-color: var(--Theme3ToggleBackgroundKeyPadBackgroundScreenBackground);
+    color: var(--Theme3Text1);
+}
+
+.theme3.card.keypad {
+    background-color: var(--Theme3ToggleBackgroundKeyPadBackgroundScreenBackground);
+}
+

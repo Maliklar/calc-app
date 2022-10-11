@@ -1,0 +1,9 @@
+.keypad{
+    min-height: 478px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 24px;
+    padding: 29px;
+    align-items: center;
+}

@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+:root{
+  /* Theme1 */
+    /* Backgrounds */
+    --Theme1MainBackground: hsl(222, 26%, 31%);
+    --Theme1TogglebackgroundKeypadBackground: hsl(223, 31%, 20%);
+    --Theme1Screenbackground: hsl(224, 36%, 15%);
+    /* Buttons */
+    --Theme1KeyBackgroundToggle: hsl(225, 21%, 49%);
+    --Theme1KeyBackgroundToggleShadow: hsl(224, 28%, 35%);
+    --Theme1KeyBackgroundEqual: hsl(6, 63%, 50%);
+    --Theme1KeyBackgroundEqualShadow: hsl(6, 70%, 34%);
+    --Theme1KeyBackground: hsl(30, 25%, 89%);
+    --Theme1KeyBackgroundShadow: hsl(28, 16%, 65%);
+    --Theme1Text: hsl(221, 14%, 31%);  
+  
+  /* Theme2 */
+    /* Backgrounds */
+    --Theme2MainBackground: hsl(0, 0%, 90%);
+    --Theme2TogglebackgroundKeypadBackground: hsl(0, 5%, 81%);
+    --Theme2Screenbackground: hsl(0, 0%, 93%);
+    /* Buttons */
+    --Theme2KeyBackgroundToggle: hsl(185, 42%, 37%);
+    --Theme2KeyBackgroundToggleShadow: hsl(185, 58%, 25%);
+    --Theme2KeyBackgroundEqual: hsl(25, 98%, 40%);
+    --Theme2KeyBackgroundEqualShadow: hsl(25, 99%, 27%);
+    --Theme2KeyBackground: hsl(45, 7%, 89%);
+    --Theme2KeyBackgroundShadow: hsl(35, 11%, 61%);
+    --Theme2Text: hsl(60, 10%, 19%);  
+  
+  /* Theme3 */
+    /* Backgrounds */
+    --Theme3MainBackground: hsl(268, 75%, 9%);
+    --Theme3ToggleBackgroundKeyPadBackgroundScreenBackground: hsl(268, 71%, 12%);
+    /* Buttons */
+    --Theme3KeyBackgroundToggle: hsl(281, 89%, 26%);
+    --Theme3KeyBackgroundToggleShadow: hsl(285, 91%, 52%);
+    --Theme3KeyBackgroundEqual: hsl(176, 100%, 44%);
+    --Theme3KeyBackgroundEqualShadow: hsl(177, 92%, 70%);
+    --Theme3KeyBackground: hsl(268, 47%, 21%);
+    --Theme3KeyBackgroundShadow: hsl(290, 70%, 36%);
+    --Theme3Text1: hsl(52, 100%, 62%);
+    --Theme3Text2: hsl(198, 20%, 13%);
+  
+    /* Common */
+    --White: hsl(0, 0%, 100%);
+    font-size: 32px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+*{
+  box-sizing: border-box;
+  font-family: 'League Spartan', sans-serif;
 }

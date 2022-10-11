@@ -1,0 +1,93 @@
+.button {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 32px;
+    text-transform: uppercase;
+    border: none;
+}
+
+/* Theme1 */
+.theme1.button {
+    background-color: var(--Theme1KeyBackground);
+    box-shadow: inset 0px -5px 0px 0px var(--Theme1KeyBackgroundShadow);
+    color: var(--Theme1Text);
+}
+
+.theme1.button.del {
+    background-color: var(--Theme1KeyBackgroundToggle);
+    box-shadow: inset 0px -5px 0px 0px var(--Theme1KeyBackgroundToggleShadow);
+    color: white;
+}
+
+.theme1.button.reset {
+    grid-column: 1/ 3;
+    background-color: var(--Theme1KeyBackgroundToggle);
+    box-shadow: inset 0px -5px 0px 0px var(--Theme1KeyBackgroundToggleShadow);
+    color: white;
+}
+
+.theme1.button.equal {
+    background-color: var(--Theme1KeyBackgroundEqual);
+    box-shadow: inset 0px -5px 0px 0px var(--Theme1KeyBackgroundEqualShadow);
+    grid-column: 3/ -1;
+    color: white;
+}
+
+
+
+/* Theme2 */
+.theme2.button {
+    background-color: var(--Theme2KeyBackground);
+    box-shadow: inset 0px -5px 0px 0px var(--Theme2KeyBackgroundShadow);
+    color: var(--Theme2Text);
+}
+
+.theme2.button.del {
+    background-color: var(--Theme2KeyBackgroundToggle);
+    box-shadow: inset 0px -5px 0px 0px var(--Theme2KeyBackgroundToggleShadow);
+    color: white;
+}
+
+.theme2.button.reset {
+    grid-column: 1/ 3;
+    background-color: var(--Theme2KeyBackgroundToggle);
+    box-shadow: inset 0px -5px 0px 0px var(--Theme2KeyBackgroundToggleShadow);
+    color: white;
+}
+
+.theme2.button.equal {
+    background-color: var(--Theme2KeyBackgroundEqual);
+    box-shadow: inset 0px -5px 0px 0px var(--Theme2KeyBackgroundEqualShadow);
+    grid-column: 3/ -1;
+    color: white;
+}
+
+
+
+/* Theme3 */
+.theme3.button {
+    background-color: var(--Theme3KeyBackground);
+    box-shadow: inset 0px -5px 0px 0px var(--Theme3KeyBackgroundShadow);
+    color: var(--Theme3Text1);
+}
+
+.theme3.button.del {
+    background-color: var(--Theme3KeyBackgroundToggle);
+    box-shadow: inset 0px -5px 0px 0px var(--Theme3KeyBackgroundToggleShadow);
+    color: white;
+}
+
+.theme3.button.reset {
+    grid-column: 1/ 3;
+    background-color: var(--Theme3KeyBackgroundToggle);
+    box-shadow: inset 0px -5px 0px 0px var(--Theme3KeyBackgroundToggleShadow);
+    color: white;
+}
+
+.theme3.button.equal {
+    background-color: var(--Theme3KeyBackgroundEqual);
+    box-shadow: inset 0px -5px 0px 0px var(--Theme3KeyBackgroundEqualShadow);
+    grid-column: 3/ -1;
+    color: var(--Theme3Text2);
+}
