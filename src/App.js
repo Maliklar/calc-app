@@ -4,9 +4,8 @@ import Calculator from "./components/Calculator/Calculator";
 import ThemeContext from "./store/theme-context";
 function App() {
   const [currTheme, setCurrTheme] = useState("theme1");
-  function toggleTheme() {
-    console.log("from app");
-    setCurrTheme("theme3");
+  function toggleTheme(theme) {
+    setCurrTheme(theme);
   }
   return (
     <ThemeContext.Provider value={{ theme: currTheme }}>

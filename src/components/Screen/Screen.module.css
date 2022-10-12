@@ -1,3 +1,30 @@
 .screen{
     min-height: 128px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 0px 32px;
+    overflow-x: scroll;
+}
+.screen::-webkit-scrollbar{
+    display: none;
+}
+
+
+.screen>*{
+    font-size: 1.7rem;
+}
+
+@media screen and (max-width: 500px) {
+    .screen>* {
+            font-size: 1.2rem;
+        }
+    .screen {
+        min-height: 128px;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding: 0px 15px;
+        overflow-x: scroll;
+    }
 }

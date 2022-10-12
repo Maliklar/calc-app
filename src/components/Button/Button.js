@@ -11,15 +11,14 @@ export default (props) => {
   }
 
   function buttonClickHandler() {
+    // Passing to parent
     props.buttonClickHandler(props.value);
   }
   const themeContext = useContext(ThemeContext);
   return (
     <button
       onClick={buttonClickHandler}
-      className={`${classes.button} ${
-        classes[class_name]
-      } ${classes[themeContext.theme]}`}>
+      className={`${classes.button} ${classes[class_name]} ${classes[themeContext.theme]}`}>
       {props.value}
     </button>
   );

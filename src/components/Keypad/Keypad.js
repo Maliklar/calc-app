@@ -5,37 +5,13 @@ import Card from "../UI/Card/Card";
 import classes from "./Keypad.module.css";
 
 export default (props) => {
-  const keys = [
-    7,
-    8,
-    9,
-    "del",
-    4,
-    5,
-    6,
-    "+",
-    3,
-    2,
-    1,
-    "-",
-    ".",
-    0,
-    "/",
-    "x",
-    "reset",
-    "=",
-  ];
+  const keys = [7, 8, 9, "del", 4, 5, 6, "+", 3, 2, 1, "-", ".", 0, "/", "x", "reset", "="];
 
-  const buttons = keys.map((ele) => (
-    <Button
-      value={ele}
-      key={ele}
-      buttonClickHandler={buttonClickHandler}
-    />
-  ));
+  const buttons = keys.map((ele) => <Button value={ele} key={ele} buttonClickHandler={buttonClickHandler} />);
 
   const themeContext = useContext(ThemeContext);
   function buttonClickHandler(value) {
+    // Passing to parent
     props.buttonClickHandler(value);
   }
   return (

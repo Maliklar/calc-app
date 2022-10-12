@@ -1,4 +1,78 @@
 .header{
     height: 50px;
-    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.6rem;
+}
+
+.theme1.header{
+    color: var(--White);
+}
+.theme2.header{
+    color: var(--Theme2Text);
+}
+.theme3.header{
+    color: var(--Theme3Text1);
+}
+
+.toggler{
+    position: relative;
+    width: 70px;
+    height: 25px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.theme1.toggler {
+    background-color: var(--Theme1TogglebackgroundKeypadBackground);
+}
+.theme2.toggler {
+    background-color: var(--Theme2TogglebackgroundKeypadBackground);
+}
+.theme3.toggler {
+    background-color: var(--Theme3ToggleBackgroundKeyPadBackgroundScreenBackground);
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.5rem;
+}
+.theme1.numbers{
+    color: var(--White);
+}
+.theme2.numbers{
+    color: var(--Theme2Text2);
+}
+.theme3.numbers {
+    color: var(--Theme3Text1);
+}
+
+.toggler>div {
+    transition: all 0.5s;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: transparent;
+}
+
+.theme1.toggler>:nth-child(1) {
+    background-color: var(--Theme1KeyBackgroundEqual);
+}
+.theme2.toggler>:nth-child(2) {
+    background-color: var(--Theme2KeyBackgroundEqual);}
+.theme3.toggler>:nth-child(3) {
+    background-color: var(--Theme3KeyBackgroundEqual);
+}
+
+.togglerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
 }

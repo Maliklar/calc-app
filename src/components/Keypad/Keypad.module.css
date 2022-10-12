@@ -7,3 +7,10 @@
     padding: 29px;
     align-items: center;
 }
+
+@media screen and (max-width: 500px) {
+    .keypad{
+        padding: 15px;
+        gap: 10px;
+    }
+}

@@ -5,7 +5,11 @@
     font-size: 32px;
     text-transform: uppercase;
     border: none;
+    cursor: pointer;
+    transition: all 0.5s;
 }
+
+
 
 /* Theme1 */
 .theme1.button {
@@ -13,6 +17,8 @@
     box-shadow: inset 0px -5px 0px 0px var(--Theme1KeyBackgroundShadow);
     color: var(--Theme1Text);
 }
+
+
 
 .theme1.button.del {
     background-color: var(--Theme1KeyBackgroundToggle);
@@ -90,4 +96,13 @@
     box-shadow: inset 0px -5px 0px 0px var(--Theme3KeyBackgroundEqualShadow);
     grid-column: 3/ -1;
     color: var(--Theme3Text2);
+}
+
+.button:focus {
+    transition: all 0.5s;
+    box-shadow: none;
+}
+
+.button:hover {
+    filter: brightness(1.4)
 }
