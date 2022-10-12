@@ -89,7 +89,7 @@ function calculateValue(left = 0, op, right = 0) {
   else if (op === "/") {
     if (+left === 0) return 0;
     else {
-      return +right / +left;
+      return +left / +right;
     }
   } else if (op.length === 0) {
     return +left;
